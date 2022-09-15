@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio">
+    </item>
+    <item android:id="@+id/menu_layout_carrera"
+        android:icon="@drawable/ic_baseline_engineering_24"
+        android:title="Carreras">
+    </item>
+    <item android:id="@+id/menu_layout_residencia"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        android:title="Residencias">
+    </item>
+    <item android:id="@+id/menu_layout_serviosocail"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="Servicio social">
+    </item>
+
+</menu>
