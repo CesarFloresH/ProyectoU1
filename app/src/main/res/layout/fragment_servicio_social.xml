@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicioSocialFragment">
+
+    <TextView
+        android:id="@+id/TxtViObje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objetivo del Servicio Social"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtViTexto"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/TxtViObjePnt2"
+        android:layout_width="346dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="52dp"
+        android:text=" 2. Contribuir a la formación académica y capacitación profesional del prestador del Servicio Social."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TxtViObjePnt1"
+        android:layout_width="347dp"
+        android:layout_height="66dp"
+        android:text="1. Convertir esta prestación en un acto de reciprocidad para con la sociedad a través de los planes y programas del sector público."
+        app:layout_constraintBottom_toTopOf="@+id/TxtViObjePnt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtViObje"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/TxtViQue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="20dp"
+        android:text="¿Qué es? "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TxtViTexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Imgss" />
+
+    <ImageView
+        android:id="@+id/Imgss"
+        android:layout_width="196dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="14dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ss"
+        app:layout_constraintBottom_toTopOf="@+id/TxtViQue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtViInformacion" />
+
+    <TextView
+        android:id="@+id/TxtViInformacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="652dp"
+        android:text="Información de Servicio Social"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TxtViTexto"
+        android:layout_width="344dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="248dp"
+        android:text="Se entiende por servicio social el trabajo de carácter temporal y obligatorio, que institucionalmente presten y ejecuten los estudiantes en beneficio de la sociedad. Los/las estudiantes del Instituto Tecnológico prestarán el servicio social, para cumplir con los créditos del plan de estudios."
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.113" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
