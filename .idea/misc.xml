@@ -3,14 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_baseline_build_24.xml" value="0.2115" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_baseline_card_travel_24.xml" value="0.2115" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_baseline_engineering_24.xml" value="0.1595" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_baseline_groups_24.xml" value="0.2115" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_baseline_miscellaneous_services_24.xml" value="0.2115" />
-        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/fragment_carreras.xml" value="0.1" />
         <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/fragment_inicio.xml" value="0.1" />
-        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/fragment_residencias.xml" value="0.1" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/layout/fragment_servicio_social.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/menu/navigation_menu.xml" value="0.11428571428571428" />
+        <entry key="..\:/Users/Cesar Flores/OneDrive/Escritorio/ProyectoU1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1595" />
       </map>
     </option>
   </component>
@@ -23,7 +29,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.18" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>

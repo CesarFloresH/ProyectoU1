@@ -1,14 +1,10 @@
 package com.example.proyectou1;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bnv;
     @Override
@@ -17,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.frmPrincipal,new InicioFragment() ).commit();
-
         bnv=(BottomNavigationView) findViewById(R.id.btnNav);
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -29,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.menu_layout_carrera:
                         fragment = new CarrerasFragment();
+                        break;
+                    case R.id.menu_layout_residencia:
+                        fragment = new ResidenciasFragment();
+                        break;
+                    case R.id.menu_layout_serviosocail:
+                        fragment = new ServicioSocialFragment();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.frmPrincipal,fragment).commit();
